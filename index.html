@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estudo Calc</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="calculator">
+    <header>
+    <div id="display">
+      <div class="output">
+      <div data-previous-operand class="previous-operand">0</div>
+      
+      <div data-current-operand  class="current-operand">
+      </div>
+    </div>
+    </div>
+  </header>
+  <div class="wrapper">
+    <div id="keyboard">
+      <div class="line1">
+        <button  data-all-clear class="clear">C</button>
+        <button  data-operation class="division">÷</button>
+        <button   data-operation class="times">*</button>
+        <button data-equals class="equal">=</button>
+      </div>
+      <div class="line2">
+        <button data-number class="seven">7</button>
+        <button data-number class="eight">8</button>
+        <button data-number class="nine">9</button>
+        <button data-delete  class="erase">⌫</button>
+      </div>
+      <div class="line3">
+        <button data-number class="four">4</button>
+        <button  data-number class="five">5</button>
+        <button data-number class="six">6</button>
+        <button  data-operation class="sub">-</button>
+
+      </div>
+      <div class="line4">
+        <button data-number class="one">1</button>
+        <button data-number class="two">2</button>
+        <button data-number class="three">3</button>
+        <button  data-operation class="plus">+</button>
+      </div>
+        <div class="line5">
+          <button data-number class="zero">0</button>
+          <button data-number class="point">.</button>
+        </div>
+
+      
+    </div>
+  </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

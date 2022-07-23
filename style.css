@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  background-color: #333;
+}
+
+#calculator {
+  border: 3px solid #000000;
+  margin-top: 50px;
+  width: 350px;
+  height: 525px;
+  border-radius: 15px;
+  background: rgba(250, 25, 25, 0.516);
+}
+
+header {
+  margin-top: 20px;
+}
+
+#display {
+  display: flex;
+  justify-content: flex-end;
+  padding-inline: 10px;
+  margin-inline: auto;
+  border: 3px solid #000000;
+  border-radius: 4px;
+  height: 90px;
+  width: 300px;
+  background: rgb(95, 106, 73);
+}
+
+#keyboard {
+  margin-inline: auto;
+  flex-direction: row;
+  width: 270px;
+  height: 355px;
+  margin-bottom: 10px;
+}
+
+#keyboard button {
+  width: 50px;
+  height: 55px;
+  background: none;
+  border: solid 2px;
+  border-radius: 4px;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+#keyboard button:hover {
+  background: rgb(116, 24, 24);
+  transition: 0.3s;
+}
+
+#keyboard button:active {
+  background: rgb(255, 255, 255);
+  border: 2px solid black;
+}
+
+#keyboard .zero {
+  width: 120px;
+}
+
+#keyboard .plus {
+  height: 130px;
+}
+
+.line1,
+.line2,
+.line3,
+.line4,
+.line5 {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.line4 {
+  height: 55px;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
