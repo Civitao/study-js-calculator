@@ -35,7 +35,7 @@ header {
   margin-inline: auto;
   border: 3px solid #000000;
   border-radius: 4px;
-  height: 90px;
+  height: 95px;
   width: 300px;
   background: rgb(95, 106, 73);
 }
@@ -60,7 +60,7 @@ header {
 
 #keyboard button:hover {
   background: rgb(116, 24, 24);
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 #keyboard button:active {
